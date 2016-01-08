@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XLLogin1ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +19,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.window.backgroundColor = [UIColor redColor];
+    self.window.backgroundColor = [UIColor whiteColor];
+    XLLogin1ViewController *Longin=[[XLLogin1ViewController alloc]init];
+    UINavigationController *svn=[[UINavigationController alloc]initWithRootViewController:Longin];
+    self.window.rootViewController=svn;
     
     [self.window makeKeyAndVisible];
     return YES;

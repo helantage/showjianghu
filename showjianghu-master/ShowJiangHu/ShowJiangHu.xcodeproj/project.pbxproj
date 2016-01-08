@@ -7,21 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04626BED1C3F982A00D97826 /* XLLogin1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04626BEC1C3F982A00D97826 /* XLLogin1ViewController.m */; };
 		18E7CC2B1C3F620B00C7D074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC2A1C3F620B00C7D074 /* main.m */; };
 		18E7CC361C3F620B00C7D074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7CC351C3F620B00C7D074 /* Assets.xcassets */; };
 		18E7CC391C3F620B00C7D074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E7CC371C3F620B00C7D074 /* LaunchScreen.storyboard */; };
 		18E7CC441C3F620B00C7D074 /* ShowJiangHuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC431C3F620B00C7D074 /* ShowJiangHuTests.m */; };
 		18E7CC4F1C3F620B00C7D074 /* ShowJiangHuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC4E1C3F620B00C7D074 /* ShowJiangHuUITests.m */; };
 		18E7CC7A1C3F895900C7D074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC761C3F895900C7D074 /* AppDelegate.m */; };
-		18E7CC7D1C3F8E4800C7D074 /* XZShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */; };
-		18E7CC801C3F8EE300C7D074 /* XZShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC7F1C3F8EE300C7D074 /* XZShow.m */; };
-		18E7CC831C3F8F3900C7D074 /* XZshow1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC821C3F8F3900C7D074 /* XZshow1.m */; };
-		18E7CC861C3F8F4C00C7D074 /* XZshow2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC851C3F8F4C00C7D074 /* XZshow2.m */; };
-		18E7CC891C3F8F5700C7D074 /* XZshow3.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC881C3F8F5700C7D074 /* XZshow3.m */; };
-		18E7CC8C1C3F8F6000C7D074 /* XZshow4.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC8B1C3F8F6000C7D074 /* XZshow4.m */; };
-		18E7CC8F1C3F8F7900C7D074 /* XZshow5.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC8E1C3F8F7900C7D074 /* XZshow5.m */; };
-		18E7CC921C3F8F9100C7D074 /* XZshow6.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC911C3F8F9100C7D074 /* XZshow6.m */; };
-		18E7CC951C3F8F9B00C7D074 /* XZshow7.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC941C3F8F9B00C7D074 /* XZshow7.m */; };
 		18E7CCBD1C3F917D00C7D074 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC991C3F917D00C7D074 /* AFHTTPRequestOperation.m */; };
 		18E7CCBE1C3F917D00C7D074 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC9B1C3F917D00C7D074 /* AFHTTPRequestOperationManager.m */; };
 		18E7CCBF1C3F917D00C7D074 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC9D1C3F917D00C7D074 /* AFHTTPSessionManager.m */; };
@@ -61,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04626BEB1C3F982A00D97826 /* XLLogin1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLLogin1ViewController.h; sourceTree = "<group>"; };
+		04626BEC1C3F982A00D97826 /* XLLogin1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLLogin1ViewController.m; sourceTree = "<group>"; };
 		18E7CC261C3F620B00C7D074 /* ShowJiangHu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowJiangHu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E7CC2A1C3F620B00C7D074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E7CC351C3F620B00C7D074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,24 +68,6 @@
 		18E7CC501C3F620B00C7D074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E7CC751C3F895900C7D074 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E7CC761C3F895900C7D074 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18E7CC7B1C3F8E4800C7D074 /* XZShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZShowViewController.h; path = "../../Show(晒)/Controllers/XZShowViewController.h"; sourceTree = "<group>"; };
-		18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZShowViewController.m; sourceTree = "<group>"; };
-		18E7CC7E1C3F8EE300C7D074 /* XZShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZShow.h; sourceTree = "<group>"; };
-		18E7CC7F1C3F8EE300C7D074 /* XZShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZShow.m; path = ../Models/XZShow.m; sourceTree = "<group>"; };
-		18E7CC811C3F8F3900C7D074 /* XZshow1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZshow1.h; sourceTree = "<group>"; };
-		18E7CC821C3F8F3900C7D074 /* XZshow1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZshow1.m; path = ../Models/XZshow1.m; sourceTree = "<group>"; };
-		18E7CC841C3F8F4C00C7D074 /* XZshow2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZshow2.h; sourceTree = "<group>"; };
-		18E7CC851C3F8F4C00C7D074 /* XZshow2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZshow2.m; sourceTree = "<group>"; };
-		18E7CC871C3F8F5700C7D074 /* XZshow3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZshow3.h; path = "../../Home(首页)/Controllers/XZshow3.h"; sourceTree = "<group>"; };
-		18E7CC881C3F8F5700C7D074 /* XZshow3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZshow3.m; path = ../Controllers/XZshow3.m; sourceTree = "<group>"; };
-		18E7CC8A1C3F8F6000C7D074 /* XZshow4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZshow4.h; sourceTree = "<group>"; };
-		18E7CC8B1C3F8F6000C7D074 /* XZshow4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZshow4.m; path = ../Controllers/XZshow4.m; sourceTree = "<group>"; };
-		18E7CC8D1C3F8F7900C7D074 /* XZshow5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZshow5.h; sourceTree = "<group>"; };
-		18E7CC8E1C3F8F7900C7D074 /* XZshow5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZshow5.m; path = ../Models/XZshow5.m; sourceTree = "<group>"; };
-		18E7CC901C3F8F9100C7D074 /* XZshow6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZshow6.h; sourceTree = "<group>"; };
-		18E7CC911C3F8F9100C7D074 /* XZshow6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZshow6.m; sourceTree = "<group>"; };
-		18E7CC931C3F8F9B00C7D074 /* XZshow7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZshow7.h; path = ../Controllers/XZshow7.h; sourceTree = "<group>"; };
-		18E7CC941C3F8F9B00C7D074 /* XZshow7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZshow7.m; path = ../Controllers/XZshow7.m; sourceTree = "<group>"; };
 		18E7CC981C3F917D00C7D074 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		18E7CC991C3F917D00C7D074 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		18E7CC9A1C3F917D00C7D074 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -182,6 +158,7 @@
 		18E7CC281C3F620B00C7D074 /* ShowJiangHu */ = {
 			isa = PBXGroup;
 			children = (
+				18E7CCD71C3F989B00C7D074 /* Category */,
 				18E7CC5C1C3F895900C7D074 /* Class */,
 				18E7CC721C3F895900C7D074 /* Libs */,
 				18E7CC731C3F895900C7D074 /* Others */,
@@ -199,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				18E7CC2A1C3F620B00C7D074 /* main.m */,
+				18E7CCE11C3F98F800C7D074 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -247,8 +225,6 @@
 		18E7CC5E1C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC901C3F8F9100C7D074 /* XZshow6.h */,
-				18E7CC911C3F8F9100C7D074 /* XZshow6.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -256,7 +232,6 @@
 		18E7CC5F1C3F895900C7D074 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC941C3F8F9B00C7D074 /* XZshow7.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -264,7 +239,6 @@
 		18E7CC601C3F895900C7D074 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC931C3F8F9B00C7D074 /* XZshow7.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -282,7 +256,6 @@
 		18E7CC621C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC871C3F8F5700C7D074 /* XZshow3.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -290,7 +263,6 @@
 		18E7CC631C3F895900C7D074 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC8D1C3F8F7900C7D074 /* XZshow5.h */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,7 +270,6 @@
 		18E7CC641C3F895900C7D074 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC8E1C3F8F7900C7D074 /* XZshow5.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,7 +287,6 @@
 		18E7CC661C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC8A1C3F8F6000C7D074 /* XZshow4.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -324,7 +294,6 @@
 		18E7CC671C3F895900C7D074 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC8B1C3F8F6000C7D074 /* XZshow4.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -332,7 +301,6 @@
 		18E7CC681C3F895900C7D074 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC881C3F8F5700C7D074 /* XZshow3.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,8 +308,8 @@
 		18E7CC691C3F895900C7D074 /* Login(登录) */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC841C3F8F4C00C7D074 /* XZshow2.h */,
-				18E7CC851C3F8F4C00C7D074 /* XZshow2.m */,
+				04626BEB1C3F982A00D97826 /* XLLogin1ViewController.h */,
+				04626BEC1C3F982A00D97826 /* XLLogin1ViewController.m */,
 			);
 			path = "Login(登录)";
 			sourceTree = "<group>";
@@ -359,7 +327,6 @@
 		18E7CC6B1C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC7B1C3F8E4800C7D074 /* XZShowViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -367,7 +334,6 @@
 		18E7CC6C1C3F895900C7D074 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC811C3F8F3900C7D074 /* XZshow1.h */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -375,7 +341,6 @@
 		18E7CC6D1C3F895900C7D074 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC821C3F8F3900C7D074 /* XZshow1.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -393,7 +358,11 @@
 		18E7CC6F1C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */,
+<<<<<<< HEAD
+=======
+				18E7CCD41C3F977C00C7D074 /* XZShowViewController.h */,
+				18E7CCD51C3F977C00C7D074 /* XZShowViewController.m */,
+>>>>>>> ba8b75b3c09076a029bb629839e3b912113132c0
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -401,7 +370,6 @@
 		18E7CC701C3F895900C7D074 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC7E1C3F8EE300C7D074 /* XZShow.h */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -409,7 +377,6 @@
 		18E7CC711C3F895900C7D074 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC7F1C3F8EE300C7D074 /* XZShow.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -522,6 +489,19 @@
 				18E7CCBC1C3F917D00C7D074 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		18E7CCD71C3F989B00C7D074 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18E7CCD81C3F989B00C7D074 /* UIBarButtonItem+Item.h */,
+				18E7CCD91C3F989B00C7D074 /* UIBarButtonItem+Item.m */,
+				18E7CCDA1C3F989B00C7D074 /* UIImage+Image.h */,
+				18E7CCDB1C3F989B00C7D074 /* UIImage+Image.m */,
+				18E7CCDC1C3F989B00C7D074 /* UIView+Frame.h */,
+				18E7CCDD1C3F989B00C7D074 /* UIView+Frame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -655,34 +635,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E7CCBD1C3F917D00C7D074 /* AFHTTPRequestOperation.m in Sources */,
-				18E7CC7D1C3F8E4800C7D074 /* XZShowViewController.m in Sources */,
+<<<<<<< HEAD
+=======
 				18E7CC861C3F8F4C00C7D074 /* XZshow2.m in Sources */,
+>>>>>>> ba8b75b3c09076a029bb629839e3b912113132c0
 				18E7CC7A1C3F895900C7D074 /* AppDelegate.m in Sources */,
-				18E7CC8C1C3F8F6000C7D074 /* XZshow4.m in Sources */,
 				18E7CCC61C3F917D00C7D074 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				18E7CCC51C3F917D00C7D074 /* AFURLSessionManager.m in Sources */,
 				18E7CCBF1C3F917D00C7D074 /* AFHTTPSessionManager.m in Sources */,
-				18E7CC801C3F8EE300C7D074 /* XZShow.m in Sources */,
 				18E7CCC01C3F917D00C7D074 /* AFNetworkReachabilityManager.m in Sources */,
-				18E7CC891C3F8F5700C7D074 /* XZshow3.m in Sources */,
 				18E7CCCA1C3F917D00C7D074 /* UIImageView+AFNetworking.m in Sources */,
 				18E7CCCB1C3F917D00C7D074 /* UIProgressView+AFNetworking.m in Sources */,
 				18E7CCD31C3F921300C7D074 /* XZshow8.m in Sources */,
 				18E7CCC41C3F917D00C7D074 /* AFURLResponseSerialization.m in Sources */,
 				18E7CCCC1C3F917D00C7D074 /* UIRefreshControl+AFNetworking.m in Sources */,
+				18E7CCD61C3F977C00C7D074 /* XZShowViewController.m in Sources */,
 				18E7CCC31C3F917D00C7D074 /* AFURLRequestSerialization.m in Sources */,
 				18E7CCC21C3F917D00C7D074 /* AFURLConnectionOperation.m in Sources */,
 				18E7CCC91C3F917D00C7D074 /* UIButton+AFNetworking.m in Sources */,
 				18E7CCC71C3F917D00C7D074 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				18E7CCBE1C3F917D00C7D074 /* AFHTTPRequestOperationManager.m in Sources */,
+<<<<<<< HEAD
+				04626BED1C3F982A00D97826 /* XLLogin1ViewController.m in Sources */,
+=======
+				18E7CCE01C3F989B00C7D074 /* UIView+Frame.m in Sources */,
+>>>>>>> ba8b75b3c09076a029bb629839e3b912113132c0
 				18E7CC2B1C3F620B00C7D074 /* main.m in Sources */,
-				18E7CC8F1C3F8F7900C7D074 /* XZshow5.m in Sources */,
 				18E7CCC11C3F917D00C7D074 /* AFSecurityPolicy.m in Sources */,
+<<<<<<< HEAD
+=======
+				18E7CCDE1C3F989B00C7D074 /* UIBarButtonItem+Item.m in Sources */,
+				18E7CCDF1C3F989B00C7D074 /* UIImage+Image.m in Sources */,
 				18E7CC831C3F8F3900C7D074 /* XZshow1.m in Sources */,
+>>>>>>> ba8b75b3c09076a029bb629839e3b912113132c0
 				18E7CCCD1C3F917D00C7D074 /* UIWebView+AFNetworking.m in Sources */,
 				18E7CCD01C3F91EC00C7D074 /* XZshow7.m in Sources */,
-				18E7CC921C3F8F9100C7D074 /* XZshow6.m in Sources */,
-				18E7CC951C3F8F9B00C7D074 /* XZshow7.m in Sources */,
 				18E7CCC81C3F917D00C7D074 /* UIAlertView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -814,6 +801,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShowJiangHu/ShowJiangHu/PrefixHeader.pch";
 				INFOPLIST_FILE = ShowJiangHu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -826,6 +814,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShowJiangHu/ShowJiangHu/PrefixHeader.pch";
 				INFOPLIST_FILE = ShowJiangHu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
