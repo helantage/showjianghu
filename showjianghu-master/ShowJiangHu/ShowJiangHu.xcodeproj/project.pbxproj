@@ -13,7 +13,6 @@
 		18E7CC441C3F620B00C7D074 /* ShowJiangHuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC431C3F620B00C7D074 /* ShowJiangHuTests.m */; };
 		18E7CC4F1C3F620B00C7D074 /* ShowJiangHuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC4E1C3F620B00C7D074 /* ShowJiangHuUITests.m */; };
 		18E7CC7A1C3F895900C7D074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC761C3F895900C7D074 /* AppDelegate.m */; };
-		18E7CC7D1C3F8E4800C7D074 /* XZShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */; };
 		18E7CC801C3F8EE300C7D074 /* XZShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC7F1C3F8EE300C7D074 /* XZShow.m */; };
 		18E7CC831C3F8F3900C7D074 /* XZshow1.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC821C3F8F3900C7D074 /* XZshow1.m */; };
 		18E7CC861C3F8F4C00C7D074 /* XZshow2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC851C3F8F4C00C7D074 /* XZshow2.m */; };
@@ -41,6 +40,10 @@
 		18E7CCCD1C3F917D00C7D074 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CCBC1C3F917D00C7D074 /* UIWebView+AFNetworking.m */; };
 		18E7CCD01C3F91EC00C7D074 /* XZshow7.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CCCF1C3F91EC00C7D074 /* XZshow7.m */; };
 		18E7CCD31C3F921300C7D074 /* XZshow8.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CCD21C3F921300C7D074 /* XZshow8.m */; };
+		18E7CCD61C3F977C00C7D074 /* XZShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CCD51C3F977C00C7D074 /* XZShowViewController.m */; };
+		18E7CCDE1C3F989B00C7D074 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CCD91C3F989B00C7D074 /* UIBarButtonItem+Item.m */; };
+		18E7CCDF1C3F989B00C7D074 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CCDB1C3F989B00C7D074 /* UIImage+Image.m */; };
+		18E7CCE01C3F989B00C7D074 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CCDD1C3F989B00C7D074 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,8 +77,6 @@
 		18E7CC501C3F620B00C7D074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E7CC751C3F895900C7D074 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E7CC761C3F895900C7D074 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18E7CC7B1C3F8E4800C7D074 /* XZShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZShowViewController.h; path = "../../Show(晒)/Controllers/XZShowViewController.h"; sourceTree = "<group>"; };
-		18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZShowViewController.m; sourceTree = "<group>"; };
 		18E7CC7E1C3F8EE300C7D074 /* XZShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZShow.h; sourceTree = "<group>"; };
 		18E7CC7F1C3F8EE300C7D074 /* XZShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZShow.m; path = ../Models/XZShow.m; sourceTree = "<group>"; };
 		18E7CC811C3F8F3900C7D074 /* XZshow1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZshow1.h; sourceTree = "<group>"; };
@@ -132,6 +133,15 @@
 		18E7CCCF1C3F91EC00C7D074 /* XZshow7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZshow7.m; sourceTree = "<group>"; };
 		18E7CCD11C3F921300C7D074 /* XZshow8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZshow8.h; sourceTree = "<group>"; };
 		18E7CCD21C3F921300C7D074 /* XZshow8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZshow8.m; sourceTree = "<group>"; };
+		18E7CCD41C3F977C00C7D074 /* XZShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZShowViewController.h; sourceTree = "<group>"; };
+		18E7CCD51C3F977C00C7D074 /* XZShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZShowViewController.m; sourceTree = "<group>"; };
+		18E7CCD81C3F989B00C7D074 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		18E7CCD91C3F989B00C7D074 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		18E7CCDA1C3F989B00C7D074 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		18E7CCDB1C3F989B00C7D074 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		18E7CCDC1C3F989B00C7D074 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		18E7CCDD1C3F989B00C7D074 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		18E7CCE11C3F98F800C7D074 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +192,7 @@
 		18E7CC281C3F620B00C7D074 /* ShowJiangHu */ = {
 			isa = PBXGroup;
 			children = (
+				18E7CCD71C3F989B00C7D074 /* Category */,
 				18E7CC5C1C3F895900C7D074 /* Class */,
 				18E7CC721C3F895900C7D074 /* Libs */,
 				18E7CC731C3F895900C7D074 /* Others */,
@@ -199,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				18E7CC2A1C3F620B00C7D074 /* main.m */,
+				18E7CCE11C3F98F800C7D074 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -359,7 +371,6 @@
 		18E7CC6B1C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC7B1C3F8E4800C7D074 /* XZShowViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -393,7 +404,8 @@
 		18E7CC6F1C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */,
+				18E7CCD41C3F977C00C7D074 /* XZShowViewController.h */,
+				18E7CCD51C3F977C00C7D074 /* XZShowViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -522,6 +534,19 @@
 				18E7CCBC1C3F917D00C7D074 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		18E7CCD71C3F989B00C7D074 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18E7CCD81C3F989B00C7D074 /* UIBarButtonItem+Item.h */,
+				18E7CCD91C3F989B00C7D074 /* UIBarButtonItem+Item.m */,
+				18E7CCDA1C3F989B00C7D074 /* UIImage+Image.h */,
+				18E7CCDB1C3F989B00C7D074 /* UIImage+Image.m */,
+				18E7CCDC1C3F989B00C7D074 /* UIView+Frame.h */,
+				18E7CCDD1C3F989B00C7D074 /* UIView+Frame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -655,7 +680,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E7CCBD1C3F917D00C7D074 /* AFHTTPRequestOperation.m in Sources */,
-				18E7CC7D1C3F8E4800C7D074 /* XZShowViewController.m in Sources */,
 				18E7CC861C3F8F4C00C7D074 /* XZshow2.m in Sources */,
 				18E7CC7A1C3F895900C7D074 /* AppDelegate.m in Sources */,
 				18E7CC8C1C3F8F6000C7D074 /* XZshow4.m in Sources */,
@@ -670,14 +694,18 @@
 				18E7CCD31C3F921300C7D074 /* XZshow8.m in Sources */,
 				18E7CCC41C3F917D00C7D074 /* AFURLResponseSerialization.m in Sources */,
 				18E7CCCC1C3F917D00C7D074 /* UIRefreshControl+AFNetworking.m in Sources */,
+				18E7CCD61C3F977C00C7D074 /* XZShowViewController.m in Sources */,
 				18E7CCC31C3F917D00C7D074 /* AFURLRequestSerialization.m in Sources */,
 				18E7CCC21C3F917D00C7D074 /* AFURLConnectionOperation.m in Sources */,
 				18E7CCC91C3F917D00C7D074 /* UIButton+AFNetworking.m in Sources */,
 				18E7CCC71C3F917D00C7D074 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				18E7CCBE1C3F917D00C7D074 /* AFHTTPRequestOperationManager.m in Sources */,
+				18E7CCE01C3F989B00C7D074 /* UIView+Frame.m in Sources */,
 				18E7CC2B1C3F620B00C7D074 /* main.m in Sources */,
 				18E7CC8F1C3F8F7900C7D074 /* XZshow5.m in Sources */,
 				18E7CCC11C3F917D00C7D074 /* AFSecurityPolicy.m in Sources */,
+				18E7CCDE1C3F989B00C7D074 /* UIBarButtonItem+Item.m in Sources */,
+				18E7CCDF1C3F989B00C7D074 /* UIImage+Image.m in Sources */,
 				18E7CC831C3F8F3900C7D074 /* XZshow1.m in Sources */,
 				18E7CCCD1C3F917D00C7D074 /* UIWebView+AFNetworking.m in Sources */,
 				18E7CCD01C3F91EC00C7D074 /* XZshow7.m in Sources */,
@@ -814,6 +842,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShowJiangHu/ShowJiangHu/PrefixHeader.pch";
 				INFOPLIST_FILE = ShowJiangHu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -826,6 +855,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ShowJiangHu/ShowJiangHu/PrefixHeader.pch";
 				INFOPLIST_FILE = ShowJiangHu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
