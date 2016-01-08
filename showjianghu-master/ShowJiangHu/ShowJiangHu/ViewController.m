@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"真的是去年买表");
+    NSLog(@"今年照样买表");
 }
 
 - (void)didReceiveMemoryWarning {
