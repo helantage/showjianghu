@@ -13,6 +13,7 @@
 		18E7CC441C3F620B00C7D074 /* ShowJiangHuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC431C3F620B00C7D074 /* ShowJiangHuTests.m */; };
 		18E7CC4F1C3F620B00C7D074 /* ShowJiangHuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC4E1C3F620B00C7D074 /* ShowJiangHuUITests.m */; };
 		18E7CC7A1C3F895900C7D074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC761C3F895900C7D074 /* AppDelegate.m */; };
+		18E7CC7D1C3F8E4800C7D074 /* XZShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		18E7CC501C3F620B00C7D074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E7CC751C3F895900C7D074 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E7CC761C3F895900C7D074 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E7CC7B1C3F8E4800C7D074 /* XZShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZShowViewController.h; sourceTree = "<group>"; };
+		18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZShowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +295,8 @@
 		18E7CC6F1C3F895900C7D074 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				18E7CC7B1C3F8E4800C7D074 /* XZShowViewController.h */,
+				18E7CC7C1C3F8E4800C7D074 /* XZShowViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E7CC7D1C3F8E4800C7D074 /* XZShowViewController.m in Sources */,
 				18E7CC7A1C3F895900C7D074 /* AppDelegate.m in Sources */,
 				18E7CC2B1C3F620B00C7D074 /* main.m in Sources */,
 			);
