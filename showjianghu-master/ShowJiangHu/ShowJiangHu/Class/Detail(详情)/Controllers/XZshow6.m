@@ -12,6 +12,9 @@
 
 -(instancetype)init{
     self=[super init];
+    
+    NSLog(@"xxx");
+    
     return self;
 }
 
