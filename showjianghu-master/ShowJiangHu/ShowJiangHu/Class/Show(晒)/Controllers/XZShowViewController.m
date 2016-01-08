@@ -16,19 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    //配置导航条
-    [self setUpNavigationController];
-    
+    // Do any additional setup after loading the view.
 }
-
--(void)setUpNavigationController{
-    
-    UIBarButtonItem *leftBarbtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageWithOriginalName:@"nav_return"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
-    self.navigationItem.leftBarButtonItem = leftBarbtn;
-
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
